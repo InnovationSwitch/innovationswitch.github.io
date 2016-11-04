@@ -5723,3 +5723,11 @@ footer.bg-dark a {
     padding-bottom: 240px !important;
   }
 }
+
+footer.bg-dark a {
+  color:#AAA;
+}
+
+footer.bg-dark a:hover {
+  color:#FFF;
+}
