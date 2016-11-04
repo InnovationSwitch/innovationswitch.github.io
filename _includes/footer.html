@@ -5,40 +5,60 @@
           <div class="col-md-3 col-sm-6"><img alt="Logo" class="logo" src="/img/logo-light.png"></div>
           <div class="col-md-3 col-sm-6">
             <div class="widget">
-              <h6 class="title">Recent Posts</h6>
+              <h6 class="title">About Us</h6>
               <hr>
-              <ul class="link-list recent-posts">
+              <ul>
                 <li>
-                  <a href="#">Hugging pugs is super trendy</a> <span class="date">February <span class="number">14, 2015</span></span>
+                  <a href="{{ site.github.url }}/">Homepage</a>
                 </li>
                 <li>
-                  <a href="#">Spinning vinyl is oh so cool</a> <span class="date">February <span class="number">9, 2015</span></span>
+                  <a href="{{ site.github.url }}/blog">Blog</a>
                 </li>
                 <li>
-                  <a href="#">Superior theme design by pros</a> <span class="date">January <span class="number">27, 2015</span></span>
+                  <a href="{{ site.github.url }}/offering">Offering</a>
+                </li>
+                <li>
+                  <a href="{{ site.github.url }}/process">Innovation Process</a>
+                </li>
+                <li>
+                  <a href="{{ site.github.url }}/working">Working with us</a>
+                </li>
+                <li>
+                  <a href="{{ site.github.url }}/dna">DNA</a>
+                </li>
+                <li>
+                  <a href="{{ site.github.url }}/contact">Contact Us</a>
                 </li>
               </ul>
-            </div><!--end of widget-->
+            </div>
           </div>
           <div class="col-md-3 col-sm-6">
             <div class="widget">
-              <h6 class="title">Latest Updates</h6>
+              <h6 class="title">Latest Posts</h6>
               <hr>
-              <div class="twitter-feed">
-                <div class="tweets-feed" data-feed-name="mrareweb"></div>
-              </div>
-            </div><!--end of widget-->
+              <ul>
+                {% for post in site.posts %}
+                  <li>
+                    <a href="{{ post.url }}">{{ post.title }}</a>
+                  </li>
+                {% endfor %}
+              </ul>
+            </div>
           </div>
           <div class="col-md-3 col-sm-6">
             <div class="widget">
-              <h6 class="title">Instagram</h6>
+              <h6 class="title">Get in touch</h6>
               <hr>
-              <div class="instafeed" data-user-name="mrareweb">
-                <ul></ul>
-              </div>
-            </div><!--end of widget-->
+              <ul>
+                  <li>
+                    <i class="setup-icon-message2"></i>
+                    <a href="mailto:info@innovationswitch.com">info@innovationswitch.com</a><br />
+                    <small>We reply in 24 hrs</small>
+                  </li>
+                </ul>
+            </div>
           </div>
-        </div><!--end of row-->
+        </div>
         <div class="row">
           <div class="col-sm-6">
             <span class="sub">&copy; Copyright 2016 - Innovation Switch</span>
@@ -46,17 +66,15 @@
           <div class="col-sm-6 text-right">
             <ul class="list-inline social-list">
               <li>
-                <a href="#"><i class="ti-twitter-alt"></i></a>
+                <a href="https://twitter.com/SwitchInnvtn" target="_blank"><i class="ti-twitter-alt"></i></a>
               </li>
               <li>
-                <a href="#"><i class="ti-facebook"></i></a>
+                <a href="https://www.linkedin.com/company/switch-innovation?trk=biz-companies-cym" target="_blank"><i class="ti-linkedin"></i></a>
               </li>
               <li>
-                <a href="#"><i class="ti-dribbble"></i></a>
+                <a href="https://www.youtube.com/channel/UChw4OuIalUORrtgU-G97c0g%20" target="_blank"><i class="ti-youtube"></i></a>
               </li>
-              <li>
-                <a href="#"><i class="ti-vimeo-alt"></i></a>
-              </li>
+
             </ul>
           </div>
         </div>
@@ -65,14 +83,14 @@
     </footer>
   </div>
 
-  <script src="/js/jquery.min.js"></script>
-  <script src="/js/bootstrap.min.js"></script>
-  <script src="/js/flickr.js"></script>
-  <script src="/js/flexslider.min.js"></script>
-  <script src="/js/masonry.min.js"></script>
-  <script src="/js/twitterfetcher.min.js"></script>
-  <script src="/js/smooth-scroll.min.js"></script>
-  <script src="/js/parallax.js"></script>
-  <script src="/js/scripts.js"></script>
+  <script src="{{ site.github.url }}/js/jquery.min.js"></script>
+  <script src="{{ site.github.url }}/js/bootstrap.min.js"></script>
+  <script src="{{ site.github.url }}/js/flickr.js"></script>
+  <script src="{{ site.github.url }}/js/flexslider.min.js"></script>
+  <script src="{{ site.github.url }}/js/masonry.min.js"></script>
+  <script src="{{ site.github.url }}/js/twitterfetcher.min.js"></script>
+  <script src="{{ site.github.url }}/js/smooth-scroll.min.js"></script>
+  <script src="{{ site.github.url }}/js/parallax.js"></script>
+  <script src="{{ site.github.url }}/js/scripts.js"></script>
 </body>
 </html>

@@ -4,11 +4,11 @@
   <meta charset="utf-8">
   <title>Foundry Multi-purpose HTML Template</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" media="all" href="/css/bootstrap.min.css" />
-  <link rel="stylesheet" type="text/css" media="all" href="/css/themify-icons.css" />
-  <link rel="stylesheet" type="text/css" media="all" href="/css/flexslider.css" />
-  <link rel="stylesheet" type="text/css" media="all" href="/css/style.css" />
-  <link rel="stylesheet" type="text/css" media="all" href="http://fonts.googleapis.com/css?family=Lato:300,400%7CRaleway:100,400,300,500,600,700%7COpen+Sans:400,500,600">
+  <link rel="stylesheet" type="text/css" media="all" href="{{ site.github.url }}/css/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" media="all" href="{{ site.github.url }}/css/themify-icons.css" />
+  <link rel="stylesheet" type="text/css" media="all" href="{{ site.github.url }}/css/flexslider.css" />
+  <link rel="stylesheet" type="text/css" media="all" href="{{ site.github.url }}/css/style.css" />
+  <link rel="stylesheet" type="text/css" media="all" href="//fonts.googleapis.com/css?family=Lato:300,400%7CRaleway:100,400,300,500,600,700%7COpen+Sans:400,500,600">
 </head>
 <body class="scroll-assist">
   <div class="nav-container">
@@ -25,6 +25,7 @@
           <div class="module left">
             <ul class="menu">
               <li {% if page.url == '/' %} class="active" {% endif %}><a href="/">Home</a></li>
+              <li {% if page.url == '/blog/' %} class="active" {% endif %}><a href="/blog">Blog</a></li>
               <li {% if page.url == '/offering/' %} class="active" {% endif %}><a href="/offering">Offering</a></li>
               <li {% if page.url == '/process/' %} class="active" {% endif %}><a href="/process">Innovation Process</a></li>
               <li {% if page.url == '/working/' %} class="active" {% endif %}><a href="/working">Working with us</a></li>

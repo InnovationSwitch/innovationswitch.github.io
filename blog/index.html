@@ -1,0 +1,99 @@
+---
+layout: page
+---
+<div class="main-container">
+  <section class="page-title page-title-2 image-bg overlay parallax">
+    <div class="background-image-holder">
+      <img alt="Offering" class="background-image" src="/img/home10.jpg" />
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="uppercase mb8">Blog</h2>
+          <p class="lead mb0">Read what we have to say</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="container blog">
+      <div class="row">
+        <div class="col-md-10 col-md-offset-1">
+
+          {% for post in site.posts %}
+            <div class="post-snippet mb64">
+
+              <div class="post-title">
+                <span class="label">{{ post.date | date_to_string }}</span>
+                <a href="#">
+                  <h4 class="inline-block">{{ post.title }}</h4>
+                </a>
+              </div>
+
+              <a href="{{ post.url }}">
+                <img class="mb24 thumbnail" alt="{{ post.title }}" src="{{ post.image }}" />
+              </a>
+
+              <ul class="post-meta">
+                <li>
+                  <i class="ti-user"></i>
+                  <span>Written by
+
+                  {% assign author = site.data.authors[post.author] %}
+
+                  <a href="{{ author.web }}" target="_blank">{{ author.name }}</a>
+                  </span>
+                </li>
+                <li>
+                  <i class="ti-tag"></i>
+                  <span>Tagged as
+                  <a href="#">{{ post.tags }}</a>
+                  </span>
+                </li>
+              </ul>
+              <hr>
+              <p>
+                {{ post.excerpt | remove: '<p>' | remove: '</p>' | strip_html }}
+              </p>
+              <a class="btn btn-sm" href="{{ post.url }}">Read More</a>
+            </div>
+          {% endfor %}
+          <!--
+          <div class="text-center">
+            <ul class="pagination">
+              <li>
+                <a href="#" aria-label="Previous">
+                <span aria-hidden="true">&laquo;</span>
+                </a>
+              </li>
+              <li class="active">
+                <a href="#">1</a>
+              </li>
+              <li>
+                <a href="#">2</a>
+              </li>
+              <li>
+                <a href="#">3</a>
+              </li>
+              <li>
+                <a href="#">4</a>
+              </li>
+              <li>
+                <a href="#">5</a>
+              </li>
+              <li>
+                <a href="#" aria-label="Next">
+                <span aria-hidden="true">&raquo;</span>
+                </a>
+              </li>
+            </ul>
+          </div>-->
+
+        </div>
+        <!--end of nine col-->
+      </div>
+      <!--end of container row-->
+    </div>
+    <!--end of container-->
+  </section>
+</div>

@@ -4135,6 +4135,14 @@ video {
   }
 }
 /*!---------- 28. BLOG ----------*/
+.blog .thumbnail {
+  width:100%;
+}
+
+.author_pic {
+  border-radius:50%;
+}
+
 .post-title .label {
   margin-right: 16px;
 }

@@ -1,7 +1,137 @@
 {% include header.html %}
 
-Post.html
+<!-- Look the author details up from the site config. -->
+{% assign author = site.data.authors[page.author] %}
 
-{{ content }}
+<section class="page-title page-title-4 bg-secondary">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <h3 class="uppercase mb0">{{ page.title }}</h3>
+      </div>
+      <div class="col-md-6 text-right">
+        <ol class="breadcrumb breadcrumb-2">
+          <li>
+            <a href="/">Home</a>
+          </li>
+          <li>
+            <a href="/blog">Blog</a>
+          </li>
+          <li class="active">{{ page.title }}</li>
+        </ol>
+      </div>
+    </div>
+    <!--end of row-->
+  </div>
+  <!--end of container-->
+</section>
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-10 col-sm-offset-1">
+        <div class="post-snippet mb64">
+          <img class="mb24" alt="Post Image" src="{{ page.image }}" />
+          <div class="post-title">
+            <span class="label">{{ page.date | date_to_string }}</span>
+            <h4 class="inline-block">{{ page.title }}</h4>
+          </div>
+          <ul class="post-meta">
+            <li>
+              <i class="ti-user"></i>
+              Written by <a href="{{ author.web }}" target="_blank">{{ author.name }}</a>
+              </span>
+            </li>
+            <li>
+              <i class="ti-tag"></i>
+              <span>Tagged as
+              <a href="#">{{ page.tags }}</a>
+              </span>
+            </li>
+          </ul>
+          <hr>
+          {{ page.content }}
+        </div>
+        <!--end of post snippet-->
+        <hr>
 
+        <!-- Output author details if some exist. -->
+        {% if author %}
+          <h5 class="uppercase">About the Author</h5>
+
+          <div class="row">
+            <div class="col-sm-12">
+                <p><strong><a href="{{ author.web }}" target="_blank">{{ author.name }}</a></strong></p>
+            </div>
+            <div class="col-sm-2">
+              <img src="{{ author.image}}" class="author_pic" />
+            </div>
+
+            <div class="col-sm-10">
+              {{author.bio}}
+            </div>
+
+          </div>
+        {% endif %}
+
+        <br />
+
+        <hr>
+
+        <div class="comments">
+          <h5 class="uppercase">0 Comments</h5>
+          <!--
+          <ul class="comments-list">
+            <li>
+              <div class="avatar">
+                <img alt="Avatar" src="img/avatar1.png" />
+              </div>
+              <div class="comment">
+                <span class="uppercase author">Jane Lovell, September 8</span>
+                <a class="btn btn-sm" href="#">Reply</a>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+              </div>
+              <ul>
+                <li>
+                  <div class="avatar">
+                    <img alt="Avatar" src="img/avatar2.png" />
+                  </div>
+                  <div class="comment">
+                    <span class="uppercase author">Tim Jackson, September 8</span>
+                    <a class="btn btn-sm" href="#">Reply</a>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                  </div>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <div class="avatar">
+                <img alt="Avatar" src="img/avatar3.png" />
+              </div>
+              <div class="comment">
+                <span class="uppercase author">Roland Sims, September 9</span>
+                <a class="btn btn-sm" href="#">Reply</a>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+              </div>
+            </li>
+          </ul>
+          -->
+          <hr>
+          <h5 class="uppercase">Leave A Comment</h5>
+          <form>
+            <input name="name" type="text" placeholder="Your Name" />
+            <input name="email" type="text" placeholder="Email Address" />
+            <textarea rows="3" placeholder="Comment"></textarea>
+            <input type="submit" value="Leave Comment" />
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 {% include footer.html %}
