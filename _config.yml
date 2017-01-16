@@ -13,20 +13,69 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Innovation Switch
+title: Switch
 email: info@innovationswitch.com
 description: > # this means to ignore newlines until "baseurl:"
   Change the game with innovation that delivers
-baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://innovationswitch.com"
 twitter_username: SwitchInnvtn
 github_username:  InnovationSwitch
+layout: default
+
+collections:
+  offerings:
+    output: true
 
 # Build settings
 markdown: kramdown
 theme: minima
-gems:
-  - jekyll-feed
+
+assets:
+  compress:
+      css: true
+      js: true
+  features:
+    automatic_img_size: false
+  sources:
+    - _assets/bower
+    - _assets/fonts
+    - _assets/images
+    - _assets/javascripts
+    - _assets/stylesheets
+    - _vendor/
+
+baseurl: /
+
 exclude:
+  - .bowerrc
+  - .travis.yml
+  - bin/*
+  - bower.json
+  - circle.yml
   - Gemfile
   - Gemfile.lock
+  - README.md
+  - vendor
+
+ga_analytics: UA-88974424-1
+
+gems:
+  - jekyll-assets
+  - jekyll-sitemap
+  - jekyll-feed
+
+permalink: pretty
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "default"
+
+atom:
+  buildCommand:
+    - bundle
+    - exec
+    - jekyll
+    - build

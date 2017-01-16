@@ -1,28 +1,27 @@
 ---
-layout: home
 ---
-<div class="main-container">
 <section class="cover fullscreen image-slider slider-all-controls controls-inside parallax">
   <ul class="slides">
     <li class="overlay image-bg">
-      <div class="background-image-holder"><img alt="image" class="background-image" src="{{ site.github.url }}/img/homepage-slider4.jpg"></div>
+      <div class="background-image-holder"><img alt="image" class="background-image" src="{% asset_path homepage-slider4.jpg %}"></div>
       <div class="container v-align-transform">
         <div class="row">
           <div class="col-sm-10 col-sm-offset-1 text-center">
             <h1 class="mb40 mb-xs-16 large">Real innovation driven by your business objectives</h1>
-            <h6 class="uppercase mb16">The switch ecosystem equips you for the full innovation cycle</h6>
-            <a class="btn btn-lg btn-filled" href="{{ site.github.url }}/working">Work with us</a>
+            <h6 class="uppercase mb16">We solve real problems, and enable learning by doing using Design Thinking & Lean Startup methodologies and principles</h6>
+            <a class="btn btn-lg btn-filled" href="/working">Book your Igniter</a>
           </div>
         </div>
       </div>
     </li>
     <li class="overlay image-bg">
-      <div class="background-image-holder"><img alt="image" class="background-image" src="{{ site.github.url }}/img/homepage-slider3.jpg"></div>
+      <div class="background-image-holder"><img alt="image" class="background-image" src="{% asset_path homepage-slider3.jpg %}"></div>
       <div class="container v-align-transform">
         <div class="row">
           <div class="col-sm-offset-1 text-center col-sm-10">
-            <h1 class="mb40 mb-xs-16 large">Change the game with innovation that excites</h1>
-            <a class="btn btn-lg btn-filled" href="{{ site.github.url }}/working">Work with us</a>
+            <h1 class="mb40 mb-xs-16 large">Change the game with Innovation tools that deliver</h1>
+            <h6 class="uppercase mb16">A powerful innovation tool with management dashboards to give executives a holistic view of the investment and health of innovation in their organisation.</h6>
+            <a class="btn btn-lg btn-filled" href="/working">Book a Demo</a>
           </div>
         </div>
       </div>
@@ -37,48 +36,12 @@ layout: home
         <p class="lead mb64">
           Ideas can come from aywhere, launching them starts here.<br /> We inspire companies to not only think, but act differently using our lean startup methodologies.
         </p>
-        <img alt="Pic" class="image-small" src="{{ site.github.url }}/img/signature.png">
+        <img alt="Pic" class="image-small" src="{% asset_path signature.png %}">
       </div>
     </div>
   </div>
 </section>
-<section class="bg-dark">
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-12">
-        <h6 class="uppercase">About Switch</h6>
-        <hr class="mb160 mb-xs-24">
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-10">
-        <h1 class="thin">Investing in innovative technology companies since 2012</h1>
-      </div>
-    </div>
-    <div class="row mb160 mb-xs-0">
-      <div class="col-md-6 col-sm-8">
-        <p class="lead">
-          Switch partners with passionate entrepreneurs and startups to build enduring, era-defining companies that define their categories.
-        </p>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-sm-4 mb-xs-24">
-        <h1 class="large color-primary mb0">140+</h1>
-        <h5 class="color-primary mb0">Profitable M&amp;A Ventures</h5>
-      </div>
-      <div class="col-sm-4 mb-xs-24">
-        <h1 class="large color-primary mb0">$1.2m+</h1>
-        <h5 class="color-primary mb0">Capital Invested</h5>
-      </div>
-      <div class="col-sm-4">
-        <h1 class="large color-primary mb0">4/5</h1>
-        <h5 class="color-primary mb0">Companies Yielding Profit</h5>
-      </div>
-    </div>
-  </div>
-</section>
-<section>
+<!-- <section>
   <div class="container">
     <div class="row mb80 mb-xs-0">
       <div class="col-md-8 col-md-offset-2 text-center">
@@ -86,10 +49,9 @@ layout: home
         <p>We offer the best software solution to keep track and facilitate amazing ideas</p>
       </div>
     </div>
-    <!--end of row-->
     <div class="row v-align-children">
       <div class="col-md-7 col-sm-6 text-center mb-xs-24">
-        <img class="cast-shadow" alt="Screenshot" src="img/screenshot.jpg" />
+        <img class="cast-shadow" alt="Screenshot" src="{% asset_path screenshot.jpg %}" />
       </div>
       <div class="col-md-4 col-md-offset-1 col-sm-5 col-sm-offset-1">
         <h3>Innovate, Fast!</h3>
@@ -97,21 +59,13 @@ layout: home
         <p>We offer several layers of functionality for various user responsibilities and roles within your company so that you can make the most of your time using our software.</p>
       </div>
     </div>
-    <!--end of row-->
   </div>
-  <!--end of container-->
-</section>
+</section> -->
 <section class="image-bg overlay parallax">
   <div class="background-image-holder">
-    <img alt="image" class="background-image" src="{{ site.github.url }}/img/app2.jpg" />
+    <img alt="image" class="background-image" src="{% asset_path app2.jpg %}" />
   </div>
   <div class="container">
-    <div class="row mb40 mb-xs-24">
-      <div class="col-sm-12 text-center spread-children">
-        <img class="image-xs" alt="Pic" src="{{ site.github.url }}/img/paul_steenkamp.jpg" />
-        <img class="image-xs" alt="Pic" src="{{ site.github.url }}/img/michael_du_preez.jpg" />
-      </div>
-    </div>
     <div class="row mb16 mb-xs-0">
       <div class="col-sm-12 text-center">
         <h3>People just like you are already loving Switch</h3>
@@ -135,37 +89,21 @@ layout: home
                 <span>Head of International Business and Strategy, Tracker</span>
               </div>
             </li>
+            <li>
+              <p class="lead">“Switch has been instrumental in putting our innovation strategy into action. Innovation can be a challenge in large and complex organisations like ours. However Switch functions within the structure of our business, facilitating innovation that can be tracked and measured.”</p>
+              <div class="quote-author">
+                <h6 class="uppercase mb0">Bruce Adrain</h6>
+                <span>Head of Business Enablement, Liberty Group</span>
+              </div>
+            </li>
           </ul>
         </div>
       </div>
     </div>
   </div>
 </section>
-<section class="image-bg parallax overlay" style="margin:0;padding:60px 0 20px 0">
-  <div class="background-image-holder">
-    <img alt="image" class="background-image" src="img/home-2-5.jpg" />
-  </div>
-  <div class="container">
-    <div class="row mb40 mb-xs-24">
-      <div class="col-sm-12 text-center">
-        <h3 class="mb8">Subscribe for a monthly roundup of the best bits.</h3>
-        <p>Don't worry, we hate spam too - that's why we only send out monthly emails.</p>
-      </div>
-    </div>
-    <!--end of row-->
-    <div class="row mb80 mb-xs-24">
-      <div class="col-sm-6 col-sm-offset-3">
-        <form class="form-newsletter halves" data-success="Thanks for your registration, we will be in touch shortly." data-error="Please fill all fields correctly.">
-          <input type="text" name="email" class="mb0 transparent validate-email validate-required  signup-email-field" placeholder="Email Address" />
-          <button type="submit" class="mb0">Subscribe</button>
-        </form>
-      </div>
-    </div>
-  </div>
-  <!--end of container-->
-</section>
 <section class="image-bg parallax overlay">
-  <div class="background-image-holder"><img alt="Background Image" class="background-image" src="{{ site.github.url }}/img/home2.jpg"></div>
+  <div class="background-image-holder"><img alt="Background Image" class="background-image" src="{% asset_path home2.jpg %}"></div>
   <div class="container">
     <div class="row mb64 mb-xs-24">
       <div class="col-sm-6 col-md-5 text-right text-center-xs">
@@ -183,7 +121,7 @@ layout: home
     <div class="row">
       <div class="col-sm-12 text-center">
         <h3 class="mb40 mb-xs-24">Email us for more information on how we can launch digital, mobile, social and other mission critical innovation projects, people and businesses for you!</h3>
-        <a class="btn btn-lg btn-filled" href="{{ site.github.url }}/contact">Contact Us</a>
+        <a class="btn btn-lg btn-filled" href="/contact">Contact Us</a>
       </div>
     </div>
   </div>

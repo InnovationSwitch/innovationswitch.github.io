@@ -1,0 +1,18 @@
+a .bordered {
+  &:hover {
+    border-color: white;
+    background-color: #f8f8f8;
+  }
+
+  p {
+    color: #666;
+  }
+}
+
+nav.bg-dark ul.menu li.active li {
+  opacity:0.7;
+
+  &.active {
+    opacity: 1;
+  }
+}

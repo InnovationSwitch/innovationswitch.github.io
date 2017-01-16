@@ -1,3 +1,5 @@
+//= require_self
+
 var mr_firstSectionHeight,
     mr_nav,
     mr_fixedAt,
@@ -990,5 +992,3 @@ var mr_cookies = {
 /*\
 |*|  END COOKIE LIBRARY
 \*/
-
-

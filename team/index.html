@@ -1,0 +1,85 @@
+---
+---
+<section class="page-title page-title-4 image-bg overlay parallax">
+  <div class="background-image-holder">
+    <img alt="Team" class="background-image" src="{% asset_path cover12.jpg %}" />
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h2 class="uppercase mb8">Meet the Team</h2>
+        <p class="lead mb0">Wired to make things that people want</p>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="hidden-sm hidden-xs">
+  <div class="container">
+    {% for person in site.data.team %}
+    {% assign loopindex = forloop.index | modulo: 3 %}
+    {% if loopindex == 1 %}
+    <div class="row">
+    {% endif %}
+      <div class="col-md-4 col-sm-6">
+        <div class="image-tile outer-title text-center">
+          <img alt="Pic" src="{% asset_path {{person.image}} %}">
+          <div class="title mb16">
+            <h5 class="uppercase mb0">{{ person.name }}</h5>
+            <!-- <span>Creative Director</span> -->
+          </div>
+          <p class="mb16">
+            {{ person.bio }}
+          </p>
+        </div>
+      </div>
+    {% if loopindex == 0 %}
+    </div>
+    {% endif %}
+    {% endfor %}
+  </div>
+</section>
+<section class="hidden-lg hidden-md hidden-xs">
+  <div class="container">
+    {% for person in site.data.team %}
+    {% assign loopindex = forloop.index | modulo: 2 %}
+    {% if loopindex == 1 %}
+    <div class="row">
+    {% endif %}
+      <div class="col-md-4 col-sm-6">
+        <div class="image-tile outer-title text-center">
+          <img alt="Pic" src="{% asset_path {{person.image}} %}">
+          <div class="title mb16">
+            <h5 class="uppercase mb0">{{ person.name }}</h5>
+            <!-- <span>Creative Director</span> -->
+          </div>
+          <p class="mb16">
+            {{ person.bio }}
+          </p>
+        </div>
+      </div>
+    {% if loopindex == 0 %}
+    </div>
+    {% endif %}
+    {% endfor %}
+  </div>
+</section>
+<section class="hidden-lg hidden-md hidden-sm">
+  <div class="container">
+    <div class="row">
+    {% for person in site.data.team %}
+      <div class="col-md-4 col-sm-6">
+        <div class="image-tile outer-title text-center">
+          <img alt="Pic" src="{% asset_path {{person.image}} %}">
+          <div class="title mb16">
+            <h5 class="uppercase mb0">{{ person.name }}</h5>
+            <!-- <span>Creative Director</span> -->
+          </div>
+          <p class="mb16">
+            {{ person.bio }}
+          </p>
+        </div>
+      </div>
+    {% endfor %}
+    </div>
+  </div>
+</section>
