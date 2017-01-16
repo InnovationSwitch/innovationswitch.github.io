@@ -1,10 +1,9 @@
 ---
-layout: page
+layout: default
 ---
-<div class="main-container">
   <section class="page-title page-title-2 image-bg overlay parallax">
     <div class="background-image-holder">
-      <img alt="Offering" class="background-image" src="{{ site.github.url }}/img/home10.jpg" />
+      <img alt="Offering" class="background-image" src="{% asset_path home10.jpg %}" />
     </div>
     <div class="container">
       <div class="row">
@@ -30,8 +29,8 @@ layout: page
                 </a>
               </div>
 
-              <a href="{{ site.github.url }}{{ post.url }}">
-                <img class="mb24 thumbnail" alt="{{ post.title }}" src="{{ site.github.url }}{{ post.image }}" />
+              <a href="{{ site.url }}{{ post.url }}">
+                <img class="mb24 thumbnail" alt="{{ post.title }}" src="{{ site.url }}{{ post.image }}" />
               </a>
 
               <ul class="post-meta">
@@ -96,4 +95,3 @@ layout: page
     </div>
     <!--end of container-->
   </section>
-</div>
