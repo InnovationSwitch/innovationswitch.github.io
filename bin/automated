@@ -18,7 +18,7 @@ fi
 git checkout -b master
 
 # Build site.
-bower install
+# bower install
 bundle exec jekyll build
 
 # Delete and move files.
@@ -36,7 +36,7 @@ git push -f $ORIGIN_URL master
 
 # Move back to previous branch.
 git checkout -
-bower install
+# bower install
 
 echo "Deployed Successfully!"
 
