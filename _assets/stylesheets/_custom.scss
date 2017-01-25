@@ -9,10 +9,18 @@ a .bordered {
   }
 }
 
-nav.bg-dark ul.menu li.active li {
+nav.bg-dark ul.menu li.active ul li {
   opacity:0.7;
 
   &.active {
     opacity: 1;
   }
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.social-list a {
+  opacity: 0.75 !important;
 }

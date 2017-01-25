@@ -1,6 +1,6 @@
 ---
 name: Switch Innovation Club
-short: Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
+short: Join an exclusive network of Innovation Executives, Managers, Entrepreneurs and other professionals leading the Innovation Industry.
 icon: world
 layout: offering
 order: 4

@@ -1,6 +1,6 @@
 ---
-name: Workshops, Executive Break-aways & Ignitors
-short: Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
+name: Workshops & Ignitors
+short: Create Innovation capabilities in your teams while solving real problems, using Design Thinking & Lean Startup methodologies.
 icon: blackboard
 layout: offering
 order: 2

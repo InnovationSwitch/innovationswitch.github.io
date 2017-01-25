@@ -1,7 +1,7 @@
 ---
-name: Disruptive Innovation
-short: Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-icon: rocket
+name: Innovation Advisory
+short: We can help you create value, protect against unnecessary business risks and transform Innovation operations to drive success.
+icon: light-bulb
 layout: offering
 order: 3
 ---
