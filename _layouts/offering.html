@@ -10,7 +10,11 @@ layout: default
       </div>
     </div>
     <div class="row pt32">
-      {{content}}
+      <div class="col-xs-12">
+        <p class="lead">
+          {{content | replace: '<p>', '<p class="lead">' | replace: '<ul>', '<ul class="lead" data-bullet="ti-check-box">'}}
+        </p>
+      </div>
     </div>
   </div>
 </section>
