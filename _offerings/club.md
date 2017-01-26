@@ -5,8 +5,6 @@ icon: world
 layout: offering
 order: 4
 ---
-Join an exclusive network of Innovation Executives, Managers, Entrepreneurs and other professionals leading the Innovation Industry.
-
 Join the club. Gain collective knowledge and share Innovation Stories at our forums. Shortcut the innovation learning curve; adapt and progress by learning from the others.
 
 Sign up to get invitations to forums, discussion groups, key note speakers and more.
