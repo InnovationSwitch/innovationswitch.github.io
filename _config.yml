@@ -13,11 +13,11 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Switch
+title: Switch - Let’s Innovate Together
 email: info@innovationswitch.com
 description: > # this means to ignore newlines until "baseurl:"
-  Change the game with innovation that delivers
-url: "http://innovationswitch.com"
+  Corporate Innovation made easy – use our unique, process driven approach and suite of tools. Solve real problems using Design Thinking & Lean Startup methodologies.
+url: "https://www.innovationswitch.com"
 twitter_username: SwitchInnvtn
 github_username:  InnovationSwitch
 layout: default
