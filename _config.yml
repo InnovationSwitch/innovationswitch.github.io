@@ -22,6 +22,9 @@ twitter_username: SwitchInnvtn
 github_username:  InnovationSwitch
 layout: default
 
+tag_page_layout: tag_page
+tag_page_dir: tag
+
 collections:
   offerings:
     output: true
@@ -34,6 +37,7 @@ assets:
   compress:
       css: true
       js: true
+  digest: true
   features:
     automatic_img_size: false
   sources:
@@ -79,3 +83,50 @@ atom:
     - exec
     - jekyll
     - build
+
+prose:
+  rooturl: _posts
+  siteurl: "http://www.innovationswitch.com"
+  media: "_assets/images"
+  metadata:
+    _posts:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "post"
+      - name: "title"
+        field:
+          element: "text"
+          label: "title"
+      - name: "description"
+        field:
+          element: textarea
+          label: Description
+          help: This description is for the metadata and is used by search engines for SEO. This should be between 140 and 160 characters.
+      - name: "tags"
+        field:
+          element: textarea
+          label: Tags
+          help: > #
+            Tags should be defined as a list with " - " in front of each one. For example:
+               - one
+               - two
+               - three
+              Please check https://www.innovationswitch.com/tag/ to see what tags are already being used and be mindful of case.
+      - name: "date"
+        field:
+          element: text
+          label: Date
+          value: CURRENT_DATETIME
+          type: text
+      - name: "author"
+        field:
+          element: text
+          label: Author
+          placeholder: firstname_lastname
+          help: Use your firstname_lastname all lowercase as this is a key in a config file.
+          type: text
+      - name: "excerpt_separator"
+        field:
+          element: "hidden"
+          value: "<!--more-->"

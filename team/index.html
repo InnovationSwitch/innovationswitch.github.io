@@ -21,7 +21,7 @@
     <div class="row">
     {% endif %}
       <div class="col-md-4 col-sm-6">
-        <div class="image-tile outer-title text-center">
+        <div id="{{person.key}}" class="image-tile outer-title text-center">
           <img alt="Pic" src="{% asset_path {{person.image}} %}">
           <div class="title mb16">
             <h5 class="uppercase mb0">{{ person.name }}</h5>

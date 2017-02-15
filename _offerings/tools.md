@@ -30,7 +30,7 @@ An easy-to-apply roadmap with practical tools and templates of proprietary metho
     <div class="foundry_modal text-center">
       <h3 class="uppercase">Book a Demo</h3>
       <p class="lead mb48">Tell us a little about you and your organisation and we will tailor a demo to your needs.</p>
-      <form name="contact" class="form-email" data-success="Thanks for your submission, we will be in touch shortly." data-error="Please fill all fields correctly.">
+      <form name="demo" class="form-email" data-success="Thanks for your submission, we will be in touch shortly." data-error="Please fill all fields correctly.">
         <input type="text" class="validate-required" name="Name" placeholder="Your Name">
         <input type="text" class="validate-required validate-email" name="Email" placeholder="Email Address">
         <input type="text" class="validate-required" name="Organisation" placeholder="Organisation">

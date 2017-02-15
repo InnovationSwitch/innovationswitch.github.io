@@ -1,3 +1,10 @@
+GIT
+  remote: https://github.com/pattex/jekyll-tagging.git
+  revision: a981f786b161938a871195afc8d19e129f13fb49
+  specs:
+    jekyll-tagging (1.0.1)
+      ruby-nuggets
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -69,6 +76,7 @@ GEM
     minitest (5.10.1)
     nokogiri (1.6.8.1)
       mini_portile2 (~> 2.1.0)
+    nuggets (1.0.0)
     parallel (1.10.0)
     pathutil (0.14.0)
       forwardable-extended (~> 2.6)
@@ -77,6 +85,8 @@ GEM
     rb-inotify (0.9.7)
       ffi (>= 0.5.0)
     rouge (1.11.1)
+    ruby-nuggets (1.0.0)
+      nuggets (= 1.0.0)
     safe_yaml (1.0.4)
     sass (3.4.22)
     sprockets (3.6.3)
@@ -101,6 +111,7 @@ DEPENDENCIES
   jekyll-assets
   jekyll-feed (~> 0.6)
   jekyll-sitemap
+  jekyll-tagging!
   mini_magick
   minima (~> 2.0)
   sass

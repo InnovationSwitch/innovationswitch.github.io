@@ -28,4 +28,5 @@ group :jekyll_plugins do
    gem "mini_magick"
    gem "sass"
    gem "uglifier"
+   gem 'jekyll-tagging', :git => 'https://github.com/pattex/jekyll-tagging.git'
 end

@@ -1,19 +1,19 @@
 ---
-layout: default
 ---
-  <section class="page-title page-title-2 image-bg overlay parallax">
-    <div class="background-image-holder">
-      <img alt="Offering" class="background-image" src="{% asset_path home10.jpg %}" />
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <h2 class="uppercase mb8">Blog</h2>
-          <p class="lead mb0">Read what we have to say</p>
-        </div>
+<section class="page-title page-title-4 image-bg overlay parallax">
+  <div class="background-image-holder">
+    <img alt="Offering" class="background-image" src="{% asset_path blog.jpg %}" />
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h2 class="uppercase mb8">Blog</h2>
+        <p class="lead mb0">Read what we have to say</p>
       </div>
     </div>
-  </section>
+  </div>
+</section>
+
   <section>
     <div class="container blog">
       <div class="row">
@@ -22,16 +22,18 @@ layout: default
           {% for post in site.posts %}
             <div class="post-snippet mb64">
 
+              {% if post.image %}
+              <a href="{{ post.url }}">
+                <img class="mb24 thumbnail" alt="{{ post.title }}" src="{% asset_path {{post.image}} %}" />
+              </a>
+              {% endif %}
+
               <div class="post-title">
                 <span class="label">{{ post.date | date_to_string }}</span>
-                <a href="#">
+                <a href="{{ post.url }}">
                   <h4 class="inline-block">{{ post.title }}</h4>
                 </a>
               </div>
-
-              <a href="{{ site.url }}{{ post.url }}">
-                <img class="mb24 thumbnail" alt="{{ post.title }}" src="{{ site.url }}{{ post.image }}" />
-              </a>
 
               <ul class="post-meta">
                 <li>
@@ -40,13 +42,12 @@ layout: default
 
                   {% assign author = site.data.authors[post.author] %}
 
-                  <a href="{{ author.web }}" target="_blank">{{ author.name }}</a>
+                  <span class="color-primary">{{ author.name }}</span>
                   </span>
                 </li>
                 <li>
                   <i class="ti-tag"></i>
-                  <span>Tagged as
-                  <a href="#">{{ post.tags }}</a>
+                  <span>Tagged as {{ post | tags }}
                   </span>
                 </li>
               </ul>

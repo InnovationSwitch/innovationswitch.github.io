@@ -1,9 +1,11 @@
 ---
 layout: post
 title: Sample Post 3
-tags: Development
-author: werner_bihl
-image: /files/capital3.jpg
+tags:
+ - Development
+ - User testing
+author: matthew_adendorff
+image: capital3.jpg
 excerpt_separator: <!--more-->
 ---
 
@@ -30,4 +32,4 @@ consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-![My helpful screenshot]({{ site.url }}/files/capital4.jpg)
+![My helpful screenshot]({% asset_path capital4.jpg %})
