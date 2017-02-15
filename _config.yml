@@ -85,8 +85,6 @@ atom:
     - build
 
 prose:
-  rooturl: _posts
-  siteurl: "http://www.innovationswitch.com"
   media: "_assets/images"
   metadata:
     _posts:
