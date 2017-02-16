@@ -2,11 +2,15 @@
 excerpt_separator: <!--more-->
 layout: post
 date: '2017-02-16 10:32 +0200'
-published: false
 title: Combing Agile with Lean
 description: >-
   Combining User Centered Design and Lean Startup principals in an Agile project
   office may be the most effective way to ship product to market.
+tags:
+ - Agile
+ - Innovation Best Practice
+ - User Centered Design
+ - Lean Startup
 author: matthew_adendorff
 ---
 #### Moving Beyond 'Agile'
