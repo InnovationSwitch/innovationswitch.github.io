@@ -15,6 +15,7 @@ author: grant_ralph
 ---
 #### The emphasis on Innovation
 
+
 Today, big business places a large emphasis on innovation and it's easy to understand why. Technology is changing the world that we live in at a rapid rate and one of the biggest consequences of this is that customers are expecting more from large, established organisations.
 
 <!--more-->
