@@ -25,6 +25,10 @@ nav.bg-dark ul.menu li.active ul li {
   opacity: 0.75 !important;
 }
 
+ul, ol {
+  list-style-position: inside;
+}
+
 // ************************************************************
 // Tags cloud
 // ************************************************************
