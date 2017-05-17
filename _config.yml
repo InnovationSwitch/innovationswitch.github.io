@@ -63,10 +63,11 @@ exclude:
 
 ga_analytics: UA-88974424-1
 
-gems:
-  - jekyll-assets
-  - jekyll-sitemap
-  - jekyll-feed
+# gems:
+#   - jekyll-assets
+#   - jekyll-sitemap
+#   - jekyll-feed
+#   - jekyll-time-to-read
 
 permalink: pretty
 

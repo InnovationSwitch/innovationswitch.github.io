@@ -29,4 +29,6 @@ group :jekyll_plugins do
    gem "sass"
    gem "uglifier"
    gem 'jekyll-tagging', :git => 'https://github.com/pattex/jekyll-tagging.git'
+  #  gem 'jekyll-time-to-read'
+  #  gem 'jekyll-admin'
 end
