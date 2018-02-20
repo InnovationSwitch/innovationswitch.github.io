@@ -1,9 +1,12 @@
 ---
 name: Innovation Advisory
-short: We can help you create value, protect against unnecessary business risks and transform Innovation operations to drive success.
+short: >-
+  We can help you create value, protect against unnecessary business risks and
+  transform Innovation operations to drive success
 icon: light-bulb
 layout: offering
 order: 3
+published: true
 ---
 Switch Advisory professionals are progressive innovation thinkers, with experience in building and running innovation capabilities as well as start-ups. We build dedicated teams to bring this experience to our clients. Our mission is to help you create value, protect against unnecessary business risks and transform.
 
