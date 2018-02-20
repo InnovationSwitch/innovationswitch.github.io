@@ -1,9 +1,12 @@
 ---
-name: Workshops & Igniters
-short: Create Innovation capabilities in your teams while solving real problems, using Design Thinking & Lean Startup methodologies.
+name: Innovation Workshops & Training
+short: >-
+  Create Innovation capabilities in your teams while solving real problems,
+  using Design Thinking & Lean Startup methodologies.
 icon: blackboard
 layout: offering
 order: 2
+published: true
 ---
 #### Workshops and Executive Breakaways:
 
