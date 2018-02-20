@@ -1,9 +1,12 @@
 ---
-name: Tools & Technologies
-short: Enable your internal innovation capability with our tools - from ideation to pilot. Turn your employees into a team of innovators.
+name: Technology Toolkit
+short: >-
+  Enable your internal innovation capability with our tools - from ideation to
+  pilot. Turn your employees into a team of innovators.
 icon: desktop
 layout: offering
 order: 1
+published: true
 ---
 #### Switch Innovation Platform:
 
