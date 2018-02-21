@@ -2,9 +2,10 @@
 excerpt_separator: <!--more-->
 layout: post
 date: '2018-02-15 19:55 +0200'
-published: false
+published: true
 title: Does your innovation team have the right skills?
 author: craig_eliasov
+tags: '-Innovation Best Practice-Innovation Team'
 ---
 So, you've been tasked with leading innovation in your company. Your job is to put together a team that will not only come up with new revenue-generating ideas but will also take these from concept to marketable solutions.
 
