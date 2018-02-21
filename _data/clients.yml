@@ -21,3 +21,9 @@
 
 - name: Lightstone
   image: Lightstone logo.png
+
+- name: Collab
+  image: Collab.png
+  
+- name: dSchcool
+  image: Dschool.jpg
