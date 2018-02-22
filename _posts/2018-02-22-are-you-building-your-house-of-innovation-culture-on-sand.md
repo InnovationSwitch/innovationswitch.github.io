@@ -2,7 +2,7 @@
 excerpt_separator: <!--more-->
 layout: post
 date: '2018-02-08 12:47 +0200'
-published: false
+published: true
 title: Are you building your house of ‘innovation culture’ on sand?
 description: >-
   Focus is mostly placed on the products of innovation (new products or
@@ -37,4 +37,3 @@ Flat structures are important in driving a culture of innovation because everybo
 It’s key to understand the organisation’s desired state with regards to building a culture of innovation. This makes finding the right fit, simpler. Once you’ve found the right talent – knowledgeable, imaginative, persistent, and bold – it’s important to allow for the culture in which they work to emerge, with a set of principles that have been applied of course. It’s critical that this talent be nurtured, and for leaders to exercise patience, because innovation is a change journey. And with change comes resistance. Not everyone in the organisation will embrace your efforts because you’re disrupting the comfort zone. Be prepared for the individuals who will defend the status quo with everything they’ve got. They’ll perhaps be your biggest hurdle.
 
 By no means is the combination above exhaustive. There are several other things that are needed to drive a culture of innovation. The above will simply assist in establishing a solid foundation from which to start. Foundation is critical, it doesn’t matter how great the blueprint looks. Before you initiate or embark on an innovation journey ask yourself this: **Am I building on sand or a solid foundation?**
-
