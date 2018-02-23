@@ -1,86 +1,85 @@
-- name: Thabo Ramphore
-  bio: Thabo Ramphore is the Innovation Lead at Switch. He has extensive experience in technological and social-based innovation in both corporate and startup environments.
- 
-Strengths:A rich understanding of a number of different innovation platforms, and the ability to simplify complex concepts.
-
-  image: ThaboRamphore1.jpg
-  
 - name: Michael Jordaan
   bio: With more than 20 years experience in financial services, and nearly a decade at the helm of the Bank, Michael oversaw the move away from traditional banking, and led FNB to be named the ‘World’s Most Innovative Bank’ in the 2012  Global Banking Innovation Awards. He is the 2013 ’Business Leader Award’ winner and among 13 South Africans chosen as ‘Young Global Leaders’ by the World Economic Forum in 2008. Michael is passionate about working with client leadership teams on how to master corporate innovation.
   image: Michael.jpg
 
 - name: Claire Byrne
-  bio: Claire believes that Switch sets itself apart by providing cost effective solutions, enabling clients to continue to innovate long after Switch has completed the ideation and coaching processes. She is passionate about bringing new innovation ideas to market. 
-
-Strengths:Project management, client relationship building, and business administration.
+  bio: >-
+    Claire believes that Switch sets itself apart by providing cost effective solutions, enabling clients to continue to innovate long after Switch has completed the ideation and coaching processes. She is passionate about bringing new innovation ideas to market.
+    Strengths: Project management, client relationship building, and business administration.
   image: Claire.jpg
+
+- name: Thabo Ramphore
+  bio: >-
+    Thabo Ramphore is the Innovation Lead at Switch. He has extensive experience in technological and social-based innovation in both corporate and startup environments.
+    Strengths: A rich understanding of a number of different innovation platforms, and the ability to simplify complex concepts.
+  image: ThaboRamphore1.jpg
+
+- name: Brett Terespolsky
+  bio: >-
+    Brett Terespolsky, CEO aka Chief Geek at Switch, has a talent for all things technology, finance and customer relations.
+    Strengths: Bridging the gap between the advisory and tech side of the business, as well as positioning service offerings to clients.
+
+  image: Brett.jpg
+
+- name: Asia Sultan
+  bio: >-
+    Asia is one of the team members responsible for running innovation workshops with clients, and she applies Design Thinking and Lean Startup methodologies within these corporate environments.
+    She completed advanced courses in Design Thinking through the Hasso Plattner Institute of Design Thinking, and feels that her role at Switch allows her to “wear different hats every day, to empathise with different people and companies, and to improve lives through innovative technologies”.
+
+  image: AsiaSultan1.jpg
+
+- name: Warren Bond
+  bio: >-
+    Warren Bond is the co-founder of Switch, and started the company after recognising that big corporates were spending a lot of money on trying to be innovative, but weren’t getting good results.
+    He says, “just like an intel-chip sits inside a computer and makes things work, we want to be an intel-chip that is a silent, driving force for our clients”.
+
+  image: Warren.jpg
+
+- name: Justine Le Roux
+  bio: >-
+    Innovation Manager, Justine Le Roux, believes that Switch sets itself apart in the market by offering its clients a unique, partnership-style approach to business, which fosters collaboration.
+    Strengths: Innovation management, implementation of digital marketing strategies, and traditional and agile project management.
+
+  image: JustineFord1.jpg
+
+- name: Craig Eliasov
+  bio: >-
+    Craig Eliasov is our Product Manager, and he has a keen passion for deep diving into the root challenges which are often the blockers of successful innovation.
+    Strengths: Analytical thinker that can teach teams about the power of Design Thinking and Lean Startup methodologies in product development
+
+  image: CraigEliasov_edited.jpg
+
+- name: Angé Baard
+  bio: Angé has a passion for optimising teams and business processes by designing New Ways of Working. She re-imagines traditional ‘Human Capital’ through harnessing both the talent of the individual and the team in its entirety, using a blended method of Lean Methodology and Design Thinking principles
+  image: AngeBaard.jpg
+
+- name: Werner Bihl
+  bio: >-
+    Werner Bihl is a Senior Developer at Switch, with close to 15 years experience in building and scaling web applications, mobile apps, and digital media campaigns.
+    Strengths: 15 years frontend, backend and sysadmin experience, and specialises in building modern web and mobile applications.
+
+  image: Werner.jpg
+
+- name: Gugu Sithole-Tyali
+  bio: Gugu is the founder of Sprout Creative PR, a strategically-driven creative boutique, specialising in Brand Communications. Attuned to the trends that are shaping and reshaping their industry, the Sprout team is responsible for driving Switch’s marketing communications strategy
+  image: GuguSitholeTyali.jpg
+
+- name: Grant Ralph
+  bio: >-
+    Grant is responsible for new business development, as well as overseeing any legal requirements that arise within Switch. He’s passionate about working with organisations that are wanting to adapt to the digital revolution, evolve and possibly reinvent, to meet the demands of digital customers in a disruptive world.
+
+    Strengths: Implementing Lean Startup and Design Thinking methodologies in large financial institutions.
+
+  image: Grant.jpg
 
 - name: Simon Jenkins
   bio: Simon is a specialist in digital banking, insurance, innovation and FinTech. He has an extensive global network of start-ups, innovators, entrepreneurs & network providers. Previously, Simon was the Digital Strategy Director for Lloyds Banking Group working to establish their Innovation Lab and FinTech engagement model. More recently (2015) he worked on defining HSBC’s global Innovation strategy. In 2016 he has worked on establishing an Innovation Capability for a large Insurance business.
   image: Simon.jpg
 
-- name: Asia Sultan
-  bio: Asia is one of the team members responsible for running innovation workshops with clients, and she applies Design Thinking and Lean Startup methodologies within these corporate environments. 
-
-She completed advanced courses in Design Thinking through the Hasso Plattner Institute of Design Thinking, and feels that her role at Switch allows her to “wear different hats every day, to empathise with different people and companies, and to improve lives through innovative technologies”. 
-
-  image: AsiaSultan1.jpg
-
-- name: Warren Bond
-  bio: Warren Bond is the co-founder of Switch, and started the company after recognising that big corporates were spending a lot of money on trying to be innovative, but weren’t getting good results.
-
-He says, “just like an intel-chip sits inside a computer and makes things work, we want to be an intel-chip that is a silent, driving force for our clients”. 
-
-  image: Warren.jpg
-
-- name: Brett Terespolsky
-  bio: Brett Terespolsky, CEO aka Chief Geek at Switch, has a talent for all things technology, finance and customer relations.
-
-Strengths:Bridging the gap between the advisory and tech side of the business, as well as positioning service offerings to clients.
-
-  image: Brett.jpg
-
-- name: Justine Le Roux
-  bio: Innovation Manager, Justine Le Roux, believes that Switch sets itself apart in the market by offering its clients a unique, partnership-style approach to business, which fosters collaboration. 
-
-Strengths:Innovation management, implementation of digital marketing strategies, and traditional and agile project management.
-
-  image: JustineFord1.jpg
-
-- name: Craig Eliasov
-  bio: Craig Eliasov is our Product Manager, and he has a keen passion for deep diving into the root challenges which are often the blockers of successful innovation.
-
-
-Strengths:Analytical thinker that can teach teams about the power of Design Thinking and Lean Startup methodologies in product development
-
-  image: CraigEliasov_edited.jpg
-
-- name: Werner Bihl
-  bio: Werner Bihl is a Senior Developer at Switch, with close to 15 years experience in building and scaling web applications, mobile apps, and digital media campaigns. 
-
-Strengths:15 years frontend, backend and sysadmin experience, and specialises in building modern web and mobile applications.
-
-  image: Werner.jpg
-
-- name: Grant Ralph
-  bio: Grant is responsible for new business development, as well as overseeing any legal requirements that arise within Switch. He’s passionate about working with organisations that are wanting to adapt to the digital revolution, evolve and possibly reinvent, to meet the demands of digital customers in a disruptive world. 
-
-Strengths:Implementing Lean Startup and Design Thinking methodologies in large financial institutions.
-
-  image: Grant.jpg
-
-- name: Matthew Adendorff
-  bio: Matthew has experience in corporate strategy, innovation and business development across various industries including automotive, telematics, telco and insurance. He is the co-founder of a boutique investment company and recently completed an executive MBA having authored a paper on corporate innovation. Previously, Matthew was head of innovation at Tracker where he transformed their innovation strategy and lead a number of new innovations into the marketplace.
-  image: Matt.jpg
-
-- name: Gugu Sithole-Tyali
-  bio: Gugu is the founder of Sprout Creative PR, a strategically-driven creative boutique, specialising in Brand Communications. Attuned to the trends that are shaping and reshaping their industry, the Sprout team is responsible for driving Switch’s marketing communications strategy
-  image: GuguSitholeTyali.jpg
-  
 - name: Carla Fitton
   bio: Carla has comprehensive digital experience that stretches across the digital marketing, e-commerce and product development space. Her professional interests include UX design, customer-centric and design sprint consulting and UX strategy. Her focus has mainly been in the retail, finance industries and productivity software.
   image: Carla_Fitton.jpg
 
- - name: Angé Baard
-  bio: Angé has a passion for optimising teams and business processes by designing New Ways of Working. She re-imagines traditional ‘Human Capital’ through harnessing both the talent of the individual and the team in its entirety, using a blended method of Lean Methodology and Design Thinking principles
-  image: AsiaSultan1.jpg
+- name: Matthew Adendorff
+  bio: Matthew has experience in corporate strategy, innovation and business development across various industries including automotive, telematics, telco and insurance. He is the co-founder of a boutique investment company and recently completed an executive MBA having authored a paper on corporate innovation. Previously, Matthew was head of innovation at Tracker where he transformed their innovation strategy and lead a number of new innovations into the marketplace.
+  image: Matt.jpg

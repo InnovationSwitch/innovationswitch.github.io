@@ -8,7 +8,10 @@ description: >-
   Focus is mostly placed on the products of innovation (new products or
   services) that the need for a solid foundation, on which to build a culture of
   innovation, is often neglected.
-tags: '-Innovation Cuulture-Innovation Best Practice-Change Management-'
+tags:
+ - Innovation Cuulture
+ - Innovation Best Practice
+ - Change Management
 author: thabo_ramphore
 ---
 ## The emphasis on Innovation
